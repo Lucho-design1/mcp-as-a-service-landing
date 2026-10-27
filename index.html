@@ -2,29 +2,132 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>MCP‑as‑a‑Service – Configuración Asistida</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MCP-as-a-Service | Integración Profesional Claude AI</title>
   <style>
-    body {font-family: Arial, sans-serif; margin: 2rem; background:#f9f9f9;}
-    .container {max-width: 800px; margin:auto; background:#fff; padding:2rem; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.1);}
-    h1 {color:#2c3e50;}
-    .price {font-size:1.5rem; color:#e74c3c; margin:1rem 0;}
-    .btn {display:inline-block; margin:0.5rem 0; padding:0.8rem 1.2rem; background:#27ae60; color:#fff; text-decoration:none; border-radius:4px;}
-    .btn:hover {background:#219150;}
+    :root {
+      --bg: #0f172a;
+      --card: #1e293b;
+      --accent: #38bdf8;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --border: #334155;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      margin: 0;
+      padding: 40px 20px;
+      display: flex;
+      justify-content: center;
+    }
+    .container {
+      max-width: 680px;
+      background: var(--card);
+      padding: 36px;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+      border: 1px solid var(--border);
+    }
+    h1 {
+      font-size: 2rem;
+      margin-top: 0;
+      color: var(--accent);
+    }
+    p {
+      color: #cbd5e1;
+      font-size: 1.05rem;
+    }
+    .price-box {
+      background: rgba(56, 189, 248, 0.1);
+      border: 1px solid var(--accent);
+      padding: 20px;
+      border-radius: 12px;
+      margin: 24px 0;
+      text-align: center;
+    }
+    .price {
+      font-size: 2.2rem;
+      font-weight: bold;
+      color: var(--accent);
+    }
+    .wallet-box {
+      background: #0b1120;
+      padding: 16px;
+      border-radius: 8px;
+      font-family: monospace;
+      word-break: break-all;
+      margin-top: 12px;
+      border: 1px dashed var(--border);
+      font-size: 0.95rem;
+      color: #e2e8f0;
+    }
+    .btn {
+      display: inline-block;
+      background: var(--accent);
+      color: #0f172a;
+      font-weight: 600;
+      padding: 14px 28px;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.2s;
+      margin-top: 10px;
+    }
+    .btn:hover {
+      background: #7dd3fc;
+    }
+    .features {
+      list-style: none;
+      padding: 0;
+      margin: 20px 0;
+    }
+    .features li {
+      padding: 8px 0;
+      display: flex;
+      align-items: center;
+    }
+    .features li::before {
+      content: "✓";
+      color: #4ade80;
+      font-weight: bold;
+      margin-right: 10px;
+    }
   </style>
 </head>
 <body>
-<div class="container">
-  <h1>MCP‑as‑a‑Service</h1>
-  <p>Configuración asistida y rápida de servidores MCP (Claude Desktop) para desarrolladores y empresas.</p>
-  <p class="price">Precio único: $149 USD</p>
-  <p>Pagá de forma segura mediante PayPal o USDT (TRC‑20).</p>
-  <a class="btn" href="https://paypal.me/lucianobenech/149" target="_blank">Pagar con PayPal $149</a>
-  <br/>
-  <p>O envía USDT a la siguiente dirección (TRC‑20, bajas comisiones):</p>
-  <code>TYndYVBb42q6U79tCm3VQzzhv2FtwAndhc</code>
-  <p>Una vez recibido el pago, recibirás el enlace de configuración en tu email.</p>
-  <hr/>
-  <p>¿Tienes dudas? Contactanos: <a href="mailto:santosycanallas@gmail.com">santosycanallas@gmail.com</a></p>
-</div>
+  <div class="container">
+    <h1>🚀 MCP-as-a-Service</h1>
+    <p>Conecta tus bases de datos, APIs internas y herramientas empresariales a <strong>Claude Desktop</strong> y agentes inteligentes en minutos.</p>
+    
+    <ul class="features">
+      <li>Implementación personalizada del servidor Model Context Protocol (MCP).</li>
+      <li>Conectores seguros con SQLite, PostgreSQL, APIs REST y sistemas de archivos.</li>
+      <li>Puesta en marcha y soporte directo en menos de 24 horas.</li>
+    </ul>
+
+    <div class="price-box">
+      <div class="price">$149 USD</div>
+      <p style="margin: 4px 0 0; color: var(--muted);">Pago único por configuración asistida completa</p>
+    </div>
+
+    <h3>💳 Métodos de Pago Disponibles:</h3>
+    <div style="text-align: center; margin: 20px 0;">
+      <a class="btn" style="background: #0070ba; color: #fff; font-size: 1.1rem; padding: 14px 28px; display: block; border-radius: 8px; text-decoration: none; font-weight: bold;" href="https://paypal.me/lucianobenech/149" target="_blank">
+        🅿️ Pagar  USD con PayPal o Tarjeta
+      </a>
+    </div>
+    <p><strong>Opción Cripto USDT (Red Tron TRC-20 - Bajas comisiones):</strong></p>
+    <div class="wallet-box">TYndYVBb42q6U79tCm3VQzzhv2FtwAndhc</div>
+    <p><strong>Cripto (Red Base, Polygon o Arbitrum):</strong> Envía 149 USDC a nuestra wallet oficial:</p>
+    <div class="wallet-box">0xD98EF0acEFBbfd65232CF4767b5E7Cf11807c53F</div>
+
+    <div style="text-align: center; margin-top: 30px;">
+      <a class="btn" href="mailto:santosycanallas@gmail.com?subject=Solicitud%20de%20Configuración%20MCP%20($149%20USD)&body=Hola,%20deseo%20contratar%20la%20configuración%20asistida%20de%20MCP.%20Detalles%20de%20mi%20proyecto:">
+        ✉️ Contactar a santosycanallas@gmail.com
+      </a>
+    </div>
+  </div>
 </body>
 </html>
