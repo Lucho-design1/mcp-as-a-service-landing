@@ -4,7 +4,7 @@ Este repositorio contiene la página de aterrizaje pública que ofrece el servic
 
 - **Precio:** $149 USD
 - **Métodos de pago:**
-  - PayPal (enlace directo: https://paypal.me/lucianobenech/149)
+  - PayPal (enlace directo: https://paypal.me/LucianoBenechCenoz/149)
   - USDT TRC‑20 (dirección: `TYndYVBb42q6U79tCm3VQzzhv2FtwAndhc`)
 - **Entrega:** Tras la confirmación del pago, enviamos al cliente el enlace de configuración del servidor MCP.
 
